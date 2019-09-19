@@ -15,7 +15,7 @@ initContainers:
       - --branch=master
       - --depth=1
       - --
-      - https://github.com/<your-github-username>/binderhub-custom-files
+      - https://github.com/dvalters/binderhub-custom-files
       - /etc/binderhub/custom
     securityContext:
       runAsUser: 0
